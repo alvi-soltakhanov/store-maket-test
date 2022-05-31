@@ -1,0 +1,59 @@
+.filter {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.filter__body {
+    width: 1488px;
+    margin: auto;
+}
+
+.filter__title {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.filter__elements {
+    display: flex;
+    justify-content: left;
+}
+
+.filter__element select {
+    width: 288px;
+    height: 40px;
+    background: #F2F2F2;
+    text-align: left;
+    margin-right: 20px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: #000000;
+    border: none;
+}
+
+.filter__label {
+    width: 150px;
+    height: 18px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: #4F4F4F;
+    margin-bottom: 6px;
+    margin-left: 10px;
+}

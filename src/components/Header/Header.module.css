@@ -1,0 +1,43 @@
+
+
+.header__body {
+    width: 1488px;
+    margin: 32px auto 0;
+    font-family: 'SF UI Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.header__grey{
+    color: #828282;
+    font-family: 'SF UI Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.header__body button {
+    border: none;
+    background-color: white;
+    font-family: 'SF UI Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.header__body button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
